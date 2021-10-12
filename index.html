@@ -8,28 +8,34 @@
   
   <title>Frontend Mentor | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
+  <div class="card">
+    <div class="card-top">
+      <img src="./images/bg-pattern-card.svg" alt="card background"/>
+    </div>
+    <img src="./images/image-victor.jpg" alt="user profile photo"/>
+    <div class="card-bottom">
+      <div class="userinfo">
+        <span class="name">Victor Crest</span>
+        <span class="age">26</span>
+        <span class="location">  London</span>
+      </div>
+      <div class="stats">
+        <span class="number">80K</span>
+        <span class="category">Followers</span>
+        <span class="number">803K</span>
+        <span class="category">Likes</span>
+        <span class="number">1.4K</span>
+        <span class="category">Photos</span>
+      </div>
+    </div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/Esther-Guo">Esther Guo</a>.
   </div>
 </body>
 </html>
