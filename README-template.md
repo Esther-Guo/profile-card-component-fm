@@ -59,6 +59,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### What I learned
 
 use multiple background images and define their position
+border style default to `none`, set to `solid`(or other style) to make it visible
 
 ```html
 <h1>Some HTML code I'm proud of</h1>

@@ -52,7 +52,7 @@ body {
 }
 
 .userinfo {
-    margin: 2em auto;
+    margin: 1em auto;
 }
 
 .stats {
@@ -60,8 +60,28 @@ body {
     justify-content: space-around;
 }
 
+.stats-number {
+    padding-top: 1em;
+    border-top: hsl(0, 0%, 59%) solid 1px;
+}
+
+.number {
+    line-height: 1.5em;
+    font-weight: bold;
+}
+
+.stats-category {
+    margin-bottom: 1em;
+}
+
+.category {
+    line-height: 1.5em;
+}
+
 .attribution { 
     margin: 2em auto;
     font-size: 11px; 
-    text-align: center; }
+    text-align: center;
+}
+
 .attribution a { color: hsl(228, 45%, 44%); }
