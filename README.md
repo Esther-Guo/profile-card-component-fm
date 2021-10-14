@@ -30,8 +30,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor | Profile card component](https://esther-guo.github.io/profile-card-component-fm/)
 
 ## My process
 
@@ -54,8 +53,10 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 </div>
 ```
 - Solve peoblem: Gap between border and image when border radius is added
+
 ![](./screenshots/gap.png)
 Solution: Set `background-color same as border color`
+
 - Set only two corners using `border-radius` 
 
 ### Continued development
