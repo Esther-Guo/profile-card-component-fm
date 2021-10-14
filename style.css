@@ -43,6 +43,7 @@ body {
 
 #photo {
     position: relative;
+    
 }
 
 .card-bottom {
@@ -53,6 +54,16 @@ body {
 
 .userinfo {
     margin: 1em auto;
+    text-align: center;
+    color: hsl(227, 10%, 46%) ;
+}
+
+.age {
+    margin-left: .3em;
+}
+
+.location {
+    font-size: 1.3rem;
 }
 
 .stats {
@@ -69,7 +80,7 @@ body {
     align-items: center;
 }
 
-.number {
+.name, .number {
     line-height: 2em;
     font-weight: bold;
     color: hsl(229, 23%, 23%);
@@ -77,9 +88,9 @@ body {
 
 .category {
     line-height: 1.5em;
-    font-size: .6rem;
+    font-size: .5rem;
     letter-spacing: 1px;
-    color: hsl(0, 0%, 59%);
+    color: hsl(227, 10%, 46%);
 }
 
 .attribution {
