@@ -66,6 +66,7 @@ Solution: Set `background-color` same as border color.
 
 [Explanation](https://stackoverflow.com/a/20788749): `img` is an inline element, so it has to deal with white-space, line-height, etc., as all inline elements. I guess the space you're seeing is actually caused by the line-height. So another solution if you want to keep your img as inline elements is to set its parent `line-height: 0;`
 
-### Continued development
-
-- unsolved: scale image to fill div
+### Feedbacks from Frontend Mentor Community
+@CyrusKabir 
+- try to use more semantic elements like <main> , <section> , <footer > , etc
+- your font size in category it's tooo small it's very hard to read (fixed and learned about the browser's min font size setting)
