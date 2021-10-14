@@ -55,9 +55,16 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - Solve peoblem: Gap between border and image when border radius is added
 
 ![](./screenshots/gap.png)
-Solution: Set `background-color same as border color`
+
+Solution: Set `background-color` same as border color.
 
 - Set only two corners using `border-radius` 
+- Chrome has a minimum font size setting(in my case 12px), so any font size set to < 12px is still shown as 12. 
+- How I get rid of weird space around an image: Add `display: block`. The line-height method also works!
+
+![](./screenshots/space.png)
+
+[Explanation](https://stackoverflow.com/a/20788749): `img` is an inline element, so it has to deal with white-space, line-height, etc., as all inline elements. I guess the space you're seeing is actually caused by the line-height. So another solution if you want to keep your img as inline elements is to set its parent `line-height: 0;`
 
 ### Continued development
 

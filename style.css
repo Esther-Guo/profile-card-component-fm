@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
+* {
+    -webkit-text-size-adjust: none;
+}
+
 html {
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 62.5%;
@@ -31,13 +35,15 @@ body {
     align-items: center;
 }
 
-.card-top {
+.card-top { /* how is the height being calculated?*/
     width: 100%;
+    line-height: 0;
 }
 
 .card-top img {
     width: 100%;
     height: auto; 
+    /* display: block; */
     border-radius: 10px 10px 0 0;
 
     object-fit: contain;
@@ -100,15 +106,7 @@ body {
 
 .category {
     line-height: 1.5em;
-    font-size: .5rem;
+    font-size: 1.2rem;
     letter-spacing: 1px;
     color: hsl(227, 10%, 46%);
 }
-
-.attribution {
-    margin: 2em auto;
-    font-size: 11px; 
-    text-align: center;
-}
-
-.attribution a { color: hsl(228, 45%, 44%); }
