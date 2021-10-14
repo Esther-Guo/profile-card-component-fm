@@ -33,27 +33,39 @@ body {
 
 .card-top {
     width: 100%;
-    flex-basis: 35%;
 }
 
 .card-top img {
     width: 100%;
-    height: 100%;
+    height: auto; 
+    border-radius: 10px 10px 0 0;
+
+    object-fit: contain;
+}
+
+.float-image {
+    position: relative;
+    height: 0;
+    width: 0;
 }
 
 #photo {
-    position: relative;
-    
+    position: absolute;
+    top: -50px;
+    left: -48px;
+    background-color: whitesmoke; 
+    border: whitesmoke solid 3px;
+    border-radius: 50%;
 }
 
 .card-bottom {
     width: 100%;
-    flex-basis: 65%;
     background-color: whitesmoke;
+    border-radius: 0 0 10px 10px;
 }
 
 .userinfo {
-    margin: 1em auto;
+    margin: 4em auto 1em auto;
     text-align: center;
     color: hsl(227, 10%, 46%) ;
 }
